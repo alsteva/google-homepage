@@ -41,10 +41,15 @@ input, t {
 
 /* DIV 2*/
 .title {
-    text-align: center;
     padding-top: 5%;
     font-size: 5em;
 }
+
+.title div {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* DIV 3*/
 .search-form {
