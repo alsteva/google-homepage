@@ -1,6 +1,8 @@
 a {
     font-size: 0.8em;
     margin-right: 1em;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
 }
 
 input, t {
@@ -73,6 +75,11 @@ input, t {
     text-align: center;
     padding-top: 2%;
     font-size: 0.8em;
+}
+
+.links a {
+    text-decoration: underline;
+    color: blue;
 }
 
 /* DIV 5*/
