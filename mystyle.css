@@ -7,6 +7,28 @@ input, t {
     margin-right: 1em;
 }
 
+#signin {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 3em;
+    width:5em;
+}
+
+#signin:hover {
+    background-color: rgb(117, 162, 245);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 3em;
+    width:5em;
+}
+
+#google-apps {
+    border-radius: 50px;
+}
+
 /* DIV 1*/
 .top-links {   
    /* text-align: right;
