@@ -9,9 +9,14 @@ a:hover {
     text-decoration: underline;
 }
 
-input, t {
+input {
     margin-right: 1em;
     cursor:pointer;
+}
+
+label {
+    cursor:text;
+    margin-right: 1em;
 }
 
 hr {
@@ -84,7 +89,8 @@ hr {
     width: 30%;
     height: 30px;
     border-radius: 25px;
-    
+    cursor:text;
+        
 }
 
 .search-form form div {
