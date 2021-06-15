@@ -1,0 +1,55 @@
+body {
+    font-size: 1em;
+}
+
+.top-links {   
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 5em;
+}
+
+.search-form {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.search-box {
+    width: 30%;
+    height: 30px;
+    border-radius: 25px;
+    
+}
+
+.search-form form div {
+    padding-top: 2%;
+}
+
+.links {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+}
+
+#bottom-links {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center; 
+}
+
+#left {
+    width:100%
+}
+
+#right {    
+    width:100%;
+    text-align: right;
+}
