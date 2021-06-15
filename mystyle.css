@@ -15,7 +15,9 @@ input, t {
 }
 
 hr {
-    color: white;
+    color: lightgray;
+    border-top: none;
+    border-left: none;
     
 }
 
@@ -43,6 +45,7 @@ hr {
     width: 4em;
     background-color: none;
     border: none;
+    background-color: white;
 }
 
 #google-apps:hover {
@@ -93,6 +96,8 @@ hr {
 .search-form form div input {
     border-radius: 5%;;
     border: none;
+    padding: 1em;
+    background-color: white;
 }
 
 .search-form form div input:hover {
