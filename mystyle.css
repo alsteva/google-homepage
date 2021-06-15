@@ -1,17 +1,20 @@
-body {
-    font-size: 1em;
+a {
+    font-size: 0.8em;;
 }
 
+/* DIV 1*/
 .top-links {   
     text-align: right;
 }
 
+/* DIV 2*/
 .title {
     text-align: center;
     padding-top: 5%;
     font-size: 5em;
 }
 
+/* DIV 3*/
 .search-form {
     padding-top: 2%;
     text-align: center;
@@ -28,11 +31,14 @@ body {
     padding-top: 2%;
 }
 
+/* DIV 4*/
 .links {
     text-align: center;
     padding-top: 2%;
+    font-size: 0.8em;
 }
 
+/* DIV 5*/
 .bottom {
     position: absolute;
     bottom: 0;
