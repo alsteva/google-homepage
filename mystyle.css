@@ -11,6 +11,12 @@ a:hover {
 
 input, t {
     margin-right: 1em;
+    cursor:pointer;
+}
+
+hr {
+    color: white;
+    
 }
 
 #signin {
@@ -32,7 +38,15 @@ input, t {
 }
 
 #google-apps {
-    border-radius: 50px;
+    border-radius: 75px;
+    height: 4em;
+    width: 4em;
+    background-color: none;
+    border: none;
+}
+
+#google-apps:hover {
+    background-color: rgb(255, 232, 232);
 }
 
 /* DIV 1*/
@@ -77,11 +91,12 @@ input, t {
 }
 
 .search-form form div input {
+    border-radius: 5%;;
     border: none;
 }
 
 .search-form form div input:hover {
-    outline: grey solid 1px;
+    outline: rgb(206, 205, 205) solid 1px;
 }
 
 /* DIV 4*/
