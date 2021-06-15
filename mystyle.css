@@ -98,15 +98,13 @@ hr {
 .search-box:hover {
     border: 1px solid rgb(224, 224, 224);
     padding: 10px;
-    box-shadow: 1px 1px #dfdcdc;
+    box-shadow: 2px 2px #dfdcdc;
         
 }
 
-.search-box:selection {
-    border: 1px solid rgb(224, 224, 224);
-    padding: 10px;
-    box-shadow: 1px 1px #dfdcdc;
-        
+.search-box:focus {
+    outline: hotpink;
+    box-shadow: 2px 2px #dfdcdc;    
 }
 
 
