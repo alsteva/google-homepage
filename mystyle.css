@@ -71,6 +71,8 @@ input, t {
 }
 
 .search-form form div {
+    display: flex;
+    justify-content: center;
     padding-top: 2%;
 }
 
@@ -79,7 +81,7 @@ input, t {
 }
 
 .search-form form div input:hover {
-    border: 1px gray solid;
+    outline: grey solid 1px;
 }
 
 /* DIV 4*/
