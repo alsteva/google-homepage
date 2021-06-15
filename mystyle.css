@@ -90,6 +90,15 @@ hr {
     height: 30px;
     border-radius: 25px;
     cursor:text;
+    border: 1px solid;
+    padding: 10px;
+        
+}
+
+.search-box:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
         
 }
 
