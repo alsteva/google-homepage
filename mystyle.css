@@ -5,6 +5,10 @@ a {
     color: rgb(56, 56, 56);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 input, t {
     margin-right: 1em;
 }
@@ -70,6 +74,14 @@ input, t {
     padding-top: 2%;
 }
 
+.search-form form div input {
+    border: none;
+}
+
+.search-form form div input:hover {
+    border: 1px gray solid;
+}
+
 /* DIV 4*/
 .links {
     text-align: center;
@@ -78,6 +90,11 @@ input, t {
 }
 
 .links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.links a:hover {
     text-decoration: underline;
     color: blue;
 }
