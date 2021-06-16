@@ -92,8 +92,13 @@ hr {
     cursor:text;
     border: 1px solid rgb(224, 224, 224);
     padding: 10px;
-    background-image: url('');
-    position:left;    
+    text-indent: 40px;
+    
+}
+
+i {
+    position: relative;
+    left: 40px;
 }
 
 .search-box:hover {
@@ -147,7 +152,7 @@ hr {
 .bottom {
     position: absolute;
     bottom: 0;
-    width: 100%;    
+    width: 99%;    
 }
 
 #bottom-links {
